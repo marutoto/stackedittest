@@ -1,1 +1,5 @@
 node_modules/
+
+1_raw_tsc/out/
+2_tsc_with_gulp/htdocs/public/gruntout
+2_tsc_with_gulp/htdocs/public/gulpout
