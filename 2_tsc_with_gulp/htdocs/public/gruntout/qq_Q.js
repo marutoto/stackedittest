@@ -1,10 +1,10 @@
-var q;
-(function (q) {
+var qq;
+(function (qq) {
     var Q = (function () {
         function Q() {
             console.log('Q');
         }
         return Q;
     })();
-    q.Q = Q;
-})(q || (q = {}));
+    qq.Q = Q;
+})(qq || (qq = {}));

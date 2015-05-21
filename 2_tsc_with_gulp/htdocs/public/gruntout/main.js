@@ -49,7 +49,7 @@ var kk;
 
             new kk.B();
 
-            new q.Q();
+            new qq.Q();
         }
         return M_extA;
     })(kk.A);
@@ -60,6 +60,7 @@ var kk;
     var Main = (function () {
         function Main() {
             console.log('hello');
+            console.log('jQuery', $);
 
             new kk.M_extA();
         }

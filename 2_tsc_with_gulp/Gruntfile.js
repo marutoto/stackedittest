@@ -1,7 +1,7 @@
 module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-typescript');
     grunt.registerTask('default', [
-        'typescript:qmodule',
+        'typescript:qqmodule',
         'typescript:default'
     ]);
 
@@ -9,12 +9,12 @@ module.exports = function(grunt){
     grunt.initConfig({
         // https://github.com/k-maru/grunt-typescript
     	typescript:{
-            qmodule:{
+            qqmodule:{
                 src:[
-                    'htdocs/src/q_Q.ts'
+                    'htdocs/src/qq/Q.ts'
                     ],
 
-                dest:'htdocs/q_q.js',
+                dest:'htdocs/public/gruntout/qq_Q.js',
                 options:{
                     basePath:'htdocs/src',
                     target: 'es5',
@@ -24,10 +24,10 @@ module.exports = function(grunt){
             },
             default:{
     			src:[
-                    'htdocs/src/main.ts'
+                    'htdocs/src/kk/main.ts'
                     ],
 
-    			dest:'htdocs/main.js',
+    			dest:'htdocs/public/gruntout/app.js',
     			options:{
                     basePath:'htdocs/src',
                     target: 'es5',

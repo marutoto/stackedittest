@@ -1,4 +1,4 @@
-declare module q {
+declare module qq {
     class Q {
         constructor();
     }
